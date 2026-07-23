@@ -1,15 +1,35 @@
 * {
-  margin: 0;  padding: 0;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
-}
+  }
 
-body { margin: 0; background: #050505; overflow: hidden; font-family: sans-serif;}
+body { margin: 0; 
+       background: #050505; 
+       overflow: hidden; 
+       font-family: sans-serif;
+      }
+
+
 
 canvas { display: block; }
-
+/* 
 .ui {
       position: absolute; top: 20px; left: 20px; color: #00ffcc;
        pointer-events: none; text-transform: uppercase; letter-spacing: 2px;
-       display: flex;
-       align-items: center; justify-content: center; flex-direction: column
-    }
+    } */
+
+.ui {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;                /* Espacio entre elementos */
+    color: #00ffcc;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    pointer-events: none;
+}
